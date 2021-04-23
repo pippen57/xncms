@@ -1,9 +1,7 @@
 
 spring:
-  webflux:
-    base-path: /xncms
   profiles:
-    active: dev
+    active: prod
 logging:
   level:
     top.pippen: debug
@@ -35,9 +33,6 @@ hsweb:
   authorize:
     auto-parse: true
     sync: true
-
-
-
 server:
   port: 8818
 

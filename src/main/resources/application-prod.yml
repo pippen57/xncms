@@ -2,12 +2,10 @@
 spring:
   r2dbc:
     # url: r2dbc:postgresql://localhost:5432/jetlinks #postgresql请使用此配置
-    url: r2dbc:mysql://localhost:3306/xncms # mysql请使用此配置
+    url: r2dbc:mysql://pippen.top:3306/xncms # mysql请使用此配置
     username: root
     password: 572900
 easyorm:
   auto-ddl: true
   default-schema: xncms  # 默认使用的schema. mysql时则为数据库名
   dialect: mysql # 方言: h2,mysql,postgresql
-
-
