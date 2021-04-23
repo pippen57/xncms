@@ -1,0 +1,12 @@
+ __     __      __      _                ____     __    __      _____
+(_ \   / _)    /  \    / )              / ___)    \ \  / /     / ____\
+  \ \_/ /     / /\ \  / /   ________   / /        () \/ ()    ( (___
+   \   /      ) ) ) ) ) )  (________) ( (         / _  _ \     \___ \
+   / _ \     ( ( ( ( ( (              ( (        / / \/ \ \        ) )
+ _/ / \ \_   / /  \ \/ /               \ \___   /_/      \_\   ___/ /
+(__/   \__) (_/    \__/                 \____) (/          \) /____/
+
+  XN-CMS       @project.version@  build @maven.build.timestamp@
+  spring-boot    ${spring-boot.version}
+  http port      ${server.port}
+  r2dbc          ${spring.r2dbc.url}
