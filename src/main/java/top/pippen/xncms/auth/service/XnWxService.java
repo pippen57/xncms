@@ -27,7 +27,7 @@ public class XnWxService {
     public Map<String, String> createWxaCodeUnlimit() {
         String uuid = snowflakeIdGenerator.nextId()+"";
         File wxaCode = this.maService.getQrcodeService()
-                .createWxaCodeUnlimit("xn=" + uuid, "pages/index/index");
+                .createWxaCodeUnlimit("xn=" + uuid, "pages/web-login/web-login");
         String encode = Base64.encode(wxaCode);
         Map<String, String> map = new HashMap<>();
         map.put("src", "data:image/jpg;base64," + encode);
